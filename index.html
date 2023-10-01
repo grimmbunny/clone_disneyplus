@@ -7,11 +7,26 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero__content">
-            <h1 class="hero__content__branding">
+            <div class="hero__content__branding">
                 <img src="./dist/images/disneyplus.svg" alt="Disney+">
-            </h1>
+            </div>
             <h3 class="title--small">
                 As melhores histórias em um só lugar.
             </h3>
@@ -196,6 +211,79 @@
                 </ul>
             
         </section>
+        <section class="faq">
+            <h2 class="title">Perguntas frequentes</h2>
+                <ul class="faq__questions">
+                    <li class="faq__questions__item">
+                        <div class="faq__questions__item__question" data-faq-question>
+                            Pergunta
+                        </div>
+                        <div class="faq__questions__item__answer text--big">
+                            A resposta da pergunta
+                        </div>
+                    </li>
+                    <li class="faq__questions__item">
+                        <div class="faq__questions__item__question" data-faq-question>
+                            Pergunta
+                        </div>
+                        <div class="faq__questions__item__answer text--big">
+                            A resposta da pergunta
+                        </div>
+                    </li>
+                    <li class="faq__questions__item">
+                        <div class="faq__questions__item__question" data-faq-question>
+                            Pergunta
+                        </div>
+                        <div class="faq__questions__item__answer text--big">
+                            A resposta da pergunta
+                        </div>
+                    </li>
+                </ul>
+            </h2>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="logo disney+">
+                <ul class="footer__links">
+                    <li class="footer__links__item">
+                        <div class="language-selector">
+                            <img src="./dist/images/icones/globe.svg" alt="">
+                            <select>
+                                <option>English</option>
+                                <option selected>Português</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="footer__links__item">
+                        <a class="text--small" href="#">Termos e condições de uso</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a class="text--small" href="#">Política de privacidade</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a class="text--small" href="#">Proteção de Dados</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a class="text--small" href="#">Anúncios personalizados</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a class="text--small" href="#">Dispositivos compatíveis</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a class="text--small" href="#">Ajuda</a>
+                    </li>
+                    <li class="footer__links__item">
+                        <a class="text--small" href="#">Sobre o Disney+</a>
+                    </li>
+                </ul>
+                <p class="text--small">
+                    © 2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados.
+                </p>
+                <p class="text--small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita libero laborum sit? Eaque commodi omnis dolor sed.</p>
+    
+            </div>
+                   </footer>
     <script src="./src/main.js"></script>
 </body>
 </html>
